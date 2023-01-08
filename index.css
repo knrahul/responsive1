@@ -1,0 +1,147 @@
+body{
+    background-color:white;
+    margin:0;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;;
+}
+h1{
+    margin:0;
+    /*font-family: 'Oooh Baby', cursive;*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4em;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topContainer{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+.middleContainer{
+    background-color: #8cc2b3;
+    padding: 20px 20px 10px;
+}
+.bottomContainer{
+    background-color: #8cc2b3;
+    margin-bottom: 0;
+}
+.top-cloud{
+    position: absolute;
+    top:30px;
+    right: 300px;
+}
+.button-cloud{
+    position: absolute;
+    left: 300px;
+    top:200px;
+}
+p{
+    font-family: sans-serif;
+}
+.profile-pic{
+    width: 250px;
+}
+.coding-img{
+    width: 200px;
+}
+.programming-img{
+    width:200px;
+}
+.photoshop-img{
+    width: 140px;
+}
+.intro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link{
+    padding-left: 4px;
+    padding-right: 4px;
+    text-decoration: none;
+}
+.footer{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+}
+/*media queries*/
+@media (max-width:600px){
+    .mountain-img{
+        width: 430px;
+    }
+}
+@media (max-width:455px){
+    .top-cloud{
+        width:100px;
+    }
+    .button-cloud{
+        width:100px;
+    }
+    .mountain-img{
+        width:400px;
+    }
+}
+@media (max-width:405px)
+{
+    .mountain-img{
+        width:340px;
+    }
+    .top-cloud{
+        left:40px;
+    }
+    .button-cloud{
+       left:220px;
+    }
+}
+@media (max-width:370px)
+{
+    .mountain-img{
+        width:290px;
+    }
+}
+@media (max-width:325px)
+{
+    .mountain-img{
+        width: 250px;
+    }
+    .button-cloud{
+        left:190px;
+    }
+}
+@media (max-width:300px)
+{
+    h1{
+        font-size: 3em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+    .button-cloud{
+        left:170px
+    }
+}
+@media (max-width:275px)
+{
+    .mountain-img{
+        width:220px;
+    }
+    .button-cloud{
+        left: 145px;
+    }
+    .profile-pic{
+        width: 200px;
+    }
+    .coding-img{
+        width: 180px;
+    }
+}
+@media (max-width:250px)
+{
+    .button-cloud{
+        left: 120px;
+    }
+    .mountain-img{
+        width: 200px;
+    }
+}
